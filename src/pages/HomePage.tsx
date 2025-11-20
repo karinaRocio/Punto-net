@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { Product } from '../types/product';
+import type { Product } from '../types/product';
 
 const products: Product[] = [
   { 

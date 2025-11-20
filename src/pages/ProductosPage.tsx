@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import { Product } from "../types/product";
+import type { Product } from "../types/product";
 import ProductCard from "../components/ProductCard";
 import FilterSidebar from "../components/FilterSidebar";
 import "./ProductosPage.css";
